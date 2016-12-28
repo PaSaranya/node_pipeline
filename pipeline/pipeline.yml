@@ -13,4 +13,7 @@ jobs:
 #  - task: install
  #   file: sources/pipeline/install.yml
   - task: test
+     run:
+      path: echo
+      args: ["Hello, world!"]
     file: sources/pipeline/test.yml
