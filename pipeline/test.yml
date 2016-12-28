@@ -4,4 +4,4 @@ inputs:
   - name: sources
  #   path: .
 run:
-  path: ./pipeline/test.sh
+  path: node_pipeline/pipeline/test.sh
